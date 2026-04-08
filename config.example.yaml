@@ -1,0 +1,45 @@
+feed:
+  title: "Personal Combined Feed"
+  description: "My private aggregate feed"
+  link: "https://example.invalid"
+  language: "en"
+  max_items: 300
+  content_mode: "summary"  # allowed: summary, link
+  output_filename: "feed.xml"
+
+privacy:
+  mode: "public"  # allowed: public, secret_path
+  token_env: "NEWS_FEED_PRIVATE_TOKEN"
+
+sources:
+  - id: "hn"
+    name: "Hacker News"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "https://hnrss.org/frontpage"
+
+  - id: "example-web"
+    name: "Example Website"
+    type: "web"
+    enabled: false
+    timeout_seconds: 20
+    url: "https://example.com/news"
+    item_selector: "article"
+    title_selector: "h2 a"
+    summary_selector: ".summary"
+    base_url: "https://example.com"
+
+  - id: "newsletter"
+    name: "Newsletter Inbox"
+    type: "email"
+    enabled: false
+    timeout_seconds: 20
+    host: "imap.gmail.com"
+    port: 993
+    username: "your-email@gmail.com"
+    password_env: "NEWS_FEED_EMAIL_PASSWORD"
+    folder: "INBOX"
+    sender_allowlist:
+      - "newsletter@"
+      - "noreply@"

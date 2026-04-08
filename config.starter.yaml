@@ -1,0 +1,84 @@
+feed:
+  title: "Personal Combined Feed"
+  description: "Personal aggregate feed"
+  link: "https://example.invalid"
+  language: "en"
+  max_items: 400
+  content_mode: "summary"  # allowed: summary, link
+  output_filename: "feed.xml"
+
+privacy:
+  mode: "secret_path"  # allowed: public, secret_path
+  token_env: "NEWS_FEED_PRIVATE_TOKEN"
+
+sources:
+  - id: "hn-rss"
+    name: "Hacker News Frontpage"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "https://hnrss.org/frontpage"
+
+  - id: "reddit-programming"
+    name: "Reddit r/programming"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "https://www.reddit.com/r/programming/.rss"
+
+  - id: "arstechnica"
+    name: "Ars Technica"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "https://feeds.arstechnica.com/arstechnica/index"
+
+  - id: "bbc-world"
+    name: "BBC World"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+
+  - id: "nytimes-world"
+    name: "NYTimes World"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+
+  - id: "hn-web"
+    name: "Hacker News Web"
+    type: "web"
+    enabled: false
+    timeout_seconds: 20
+    url: "https://news.ycombinator.com/"
+    item_selector: "tr.athing"
+    title_selector: ".titleline > a"
+    base_url: "https://news.ycombinator.com"
+
+  - id: "lobsters-web"
+    name: "Lobsters Web"
+    type: "web"
+    enabled: false
+    timeout_seconds: 20
+    url: "https://lobste.rs/"
+    item_selector: "li.story"
+    title_selector: "a.u-url"
+    summary_selector: ".description"
+    base_url: "https://lobste.rs"
+
+  - id: "newsletter"
+    name: "Newsletter Inbox"
+    type: "email"
+    enabled: false
+    timeout_seconds: 20
+    host: "imap.gmail.com"
+    port: 993
+    username: "your-email@gmail.com"
+    password_env: "NEWS_FEED_EMAIL_PASSWORD"
+    folder: "INBOX"
+    sender_allowlist:
+      - "newsletter@"
+      - "substack.com"
+      - "beehiiv"
