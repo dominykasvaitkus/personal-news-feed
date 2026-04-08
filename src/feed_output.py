@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from pathlib import Path
+
 from feedgen.feed import FeedGenerator
 
 from .config import FeedSettings
@@ -7,6 +9,9 @@ from .models import FeedItem
 
 
 def write_rss(feed: FeedSettings, items: list[FeedItem], output_path: str = "output/feed.xml") -> None:
+    out_file = Path(output_path)
+    out_file.parent.mkdir(parents=True, exist_ok=True)
+
     fg = FeedGenerator()
     fg.title(feed.title)
     fg.description(feed.description)
@@ -22,4 +27,4 @@ def write_rss(feed: FeedSettings, items: list[FeedItem], output_path: str = "out
         if item.summary:
             entry.description(item.summary)
 
-    fg.rss_file(output_path)
+    fg.rss_file(str(out_file))
