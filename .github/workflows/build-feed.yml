@@ -29,10 +29,21 @@ jobs:
       - name: Prepare config
         run: cp config.starter.yaml config.yaml
 
+      - name: Validate private token configuration
+        env:
+          NEWS_FEED_PRIVATE_TOKEN: ${{ secrets.NEWS_FEED_PRIVATE_TOKEN || vars.NEWS_FEED_PRIVATE_TOKEN }}
+        run: |
+          if [ -z "$NEWS_FEED_PRIVATE_TOKEN" ]; then
+            echo "Missing NEWS_FEED_PRIVATE_TOKEN."
+            echo "Add it in: Settings > Secrets and variables > Actions > Repository secrets."
+            echo "Accepted fallback: Repository variable NEWS_FEED_PRIVATE_TOKEN."
+            exit 1
+          fi
+
       - name: Build feed
         env:
           NEWS_FEED_EMAIL_PASSWORD: ${{ secrets.NEWS_FEED_EMAIL_PASSWORD }}
-          NEWS_FEED_PRIVATE_TOKEN: ${{ secrets.NEWS_FEED_PRIVATE_TOKEN }}
+          NEWS_FEED_PRIVATE_TOKEN: ${{ secrets.NEWS_FEED_PRIVATE_TOKEN || vars.NEWS_FEED_PRIVATE_TOKEN }}
         run: python -m src.aggregator
 
       - name: Commit feed output

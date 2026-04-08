@@ -27,6 +27,11 @@ In GitHub: Settings -> Secrets and variables -> Actions -> New repository secret
 Required:
 - NEWS_FEED_PRIVATE_TOKEN: long random token used in secret path mode
 
+If workflow still reports token missing:
+- Confirm secret name is exactly `NEWS_FEED_PRIVATE_TOKEN`
+- Re-run from `main` branch (workflow_dispatch)
+- As fallback, add a repository variable with the same name under `Settings -> Secrets and variables -> Actions -> Variables`
+
 Optional (only if email source is enabled):
 - NEWS_FEED_EMAIL_PASSWORD: email app password
 
