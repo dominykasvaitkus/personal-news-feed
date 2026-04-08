@@ -1,36 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 08 Apr 2026 22:51:22 +0000</lastBuildDate><item><title>Show HN: Free.ai</title><link>https://free.ai/</link><description>&lt;p&gt;Article URL: &lt;a href="https://free.ai/"&gt;https://free.ai/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47697160"&gt;https://news.ycombinator.com/item?id=47697160&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 2&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47697160</guid><pubDate>Wed, 08 Apr 2026 22:39:02 +0000</pubDate></item><item><title>Ask HN: A CLI to control what AI code can (and can't) change in your repo</title><link>https://news.ycombinator.com/item?id=47696831</link><description>&lt;p&gt;I’ve been using AI coding tools like Cursor and Claude quite a bit, and one recurring issue I ran into was this:&lt;p&gt;Once code is generated, there’s very little control over what actually gets changed in the codebase.&lt;p&gt;Sometimes the AI:
- • modifies unrelated files
- • introduces changes outside the intended scope
- • or drifts from the original structure&lt;p&gt;Most tools either help generate code or review it after the fact, but there’s no real control layer in between.&lt;p&gt;So I built a CLI that sits between AI-generated code and your repo, and tries to:
- • define boundaries (which files should or shouldn’t change)
- • check diffs against those constraints
- • flag or block changes that violate them&lt;p&gt;The idea is to enforce constraints deterministically, instead of relying on another AI pass to review generated code.&lt;p&gt;Recently open-sourced it — still early, but would love feedback from folks actively using AI tools in their workflow.
-We have 20K+ CLI installs and 1K+ IDE extension installs as of now.&lt;p&gt;Curious how others are dealing with this today.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47696831"&gt;https://news.ycombinator.com/item?id=47696831&lt;/a&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Wed, 08 Apr 2026 23:47:00 +0000</lastBuildDate><item><title>The Hormuz chokehold affects AI funding too</title><link>https://highabsolutevalue.substack.com/p/the-hormuz-chokehold-affects-ai-funding</link><description>&lt;p&gt;Article URL: &lt;a href="https://highabsolutevalue.substack.com/p/the-hormuz-chokehold-affects-ai-funding"&gt;https://highabsolutevalue.substack.com/p/the-hormuz-chokehold-affects-ai-funding&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47697525"&gt;https://news.ycombinator.com/item?id=47697525&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Points: 3&lt;/p&gt;
-&lt;p&gt;# Comments: 1&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47696831</guid><pubDate>Wed, 08 Apr 2026 22:00:50 +0000</pubDate></item><item><title>Resurrecting a 1992 MUD with Agentic AI</title><link>https://meditations.metavert.io/p/resurrecting-a-1992-mud-with-agentic</link><description>&lt;p&gt;Article URL: &lt;a href="https://meditations.metavert.io/p/resurrecting-a-1992-mud-with-agentic"&gt;https://meditations.metavert.io/p/resurrecting-a-1992-mud-with-agentic&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47696723"&gt;https://news.ycombinator.com/item?id=47696723&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 3&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47696723</guid><pubDate>Wed, 08 Apr 2026 21:49:46 +0000</pubDate></item><item><title>Show HN: Linggen – Open-source AI agent with P2P remote access from your phone</title><link>https://linggen.dev/</link><description>&lt;p&gt;Hi HN, I built Linggen — a local-first, open-source AI coding agent written in Rust.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  What's new in 0.9.2:
-  - P2P remote access via WebRTC — control your agent from your phone, no port forwarding or cloud relay needed. Just
-  `ling login` and scan a QR code.
-  - Plan mode — the agent proposes a step-by-step plan before writing code, you approve or edit before execution.
-  - Works with any model — Ollama, OpenAI-compatible APIs, Gemini, DeepSeek. Bring your own keys or run fully local.
-
-  It's like Claude Code but model-agnostic, extensible through skills (markdown files), and now accessible from
-  anywhere.
-
-  Demo video on the landing page showing install → plan → build → mobile sync.
-
-  Install: curl -fsSL https://linggen.dev/install.sh | bash
-
-  GitHub: https://github.com/linggen/linggen&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47696666"&gt;https://news.ycombinator.com/item?id=47696666&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47697525</guid><pubDate>Wed, 08 Apr 2026 23:31:35 +0000</pubDate></item><item><title>I built a canvas where AI agents work together as a design team</title><link>https://designagents.app/blog/what-if-your-design-team-was-made-of-ai-agents</link><description>&lt;p&gt;Article URL: &lt;a href="https://designagents.app/blog/what-if-your-design-team-was-made-of-ai-agents"&gt;https://designagents.app/blog/what-if-your-design-team-was-made-of-ai-agents&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47697472"&gt;https://news.ycombinator.com/item?id=47697472&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 1&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47697472</guid><pubDate>Wed, 08 Apr 2026 23:24:06 +0000</pubDate></item><item><title>Show HN: Portable AI memoryswitch providers, keep your context</title><link>https://github.com/mahadillahm4di-cyber/mh-gdpr-ai.eu-s-plus</link><description>&lt;p&gt;Article URL: &lt;a href="https://github.com/mahadillahm4di-cyber/mh-gdpr-ai.eu-s-plus"&gt;https://github.com/mahadillahm4di-cyber/mh-gdpr-ai.eu-s-plus&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47697430"&gt;https://news.ycombinator.com/item?id=47697430&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Points: 2&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47696666</guid><pubDate>Wed, 08 Apr 2026 21:43:31 +0000</pubDate></item></channel></rss>
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47697430</guid><pubDate>Wed, 08 Apr 2026 23:18:59 +0000</pubDate></item><item><title>What Are AI Tokens and Context Limits? Why Your AI Forgets What You Told It</title><link>https://theaienabledcoder.com/ai-tools/what-are-ai-tokens-and-context-limits/</link><description>&lt;p&gt;Article URL: &lt;a href="https://theaienabledcoder.com/ai-tools/what-are-ai-tokens-and-context-limits/"&gt;https://theaienabledcoder.com/ai-tools/what-are-ai-tokens-and-context-limits/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47697294"&gt;https://news.ycombinator.com/item?id=47697294&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 1&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47697294</guid><pubDate>Wed, 08 Apr 2026 22:59:01 +0000</pubDate></item><item><title>Source: An app to prove your photos aren't AI</title><link>https://www.openorigins.com/products/secure-source</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.openorigins.com/products/secure-source"&gt;https://www.openorigins.com/products/secure-source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=47697288"&gt;https://news.ycombinator.com/item?id=47697288&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 4&lt;/p&gt;
+&lt;p&gt;# Comments: 2&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=47697288</guid><pubDate>Wed, 08 Apr 2026 22:58:27 +0000</pubDate></item></channel></rss>
