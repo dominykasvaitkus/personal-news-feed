@@ -52,8 +52,9 @@ sources:
     type: "web"
     enabled: true
     timeout_seconds: 20
+    max_items: 25
     url: "https://huggingface.co/papers/trending"
-    item_selector: "a[href^='/papers/']"
+    item_selector: "article h3 a[href^='/papers/']"
     base_url: "https://huggingface.co"
 
   - id: "ai-news"

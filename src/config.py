@@ -34,6 +34,7 @@ class BaseSourceConfig(BaseModel):
     type: str
     enabled: bool = True
     timeout_seconds: int = 20
+    max_items: int | None = None
 
 
 class RssSourceConfig(BaseSourceConfig):

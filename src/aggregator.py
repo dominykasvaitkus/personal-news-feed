@@ -42,6 +42,8 @@ def gather_items(config: AppConfig) -> list[FeedItem]:
 
         try:
             source_items = run_with_retries(fetch, retries=2)
+            if source.max_items is not None and source.max_items >= 0:
+                source_items = source_items[: source.max_items]
             logger.info("Fetched %s items from source %s", len(source_items), source.id)
             all_items.extend(source_items)
         except Exception as exc:  # noqa: BLE001
