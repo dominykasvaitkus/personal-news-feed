@@ -3,7 +3,7 @@ feed:
   description: "Personal aggregate feed"
   link: "https://example.invalid"
   language: "en"
-  max_items: 400
+  max_items: 250
   content_mode: "summary"  # allowed: summary, link
   output_filename: "feed.xml"
 
@@ -12,50 +12,63 @@ privacy:
   token_env: "NEWS_FEED_PRIVATE_TOKEN"
 
 sources:
-  - id: "hn-rss"
-    name: "Hacker News Frontpage"
+  - id: "arxiv-cs-ai"
+    name: "arXiv cs.AI"
     type: "rss"
     enabled: true
     timeout_seconds: 20
-    url: "https://hnrss.org/frontpage"
+    url: "https://rss.arxiv.org/rss/cs.AI"
 
-  - id: "reddit-programming"
-    name: "Reddit r/programming"
+  - id: "arxiv-cs-lg"
+    name: "arXiv cs.LG"
     type: "rss"
     enabled: true
     timeout_seconds: 20
-    url: "https://www.reddit.com/r/programming/.rss"
+    url: "https://rss.arxiv.org/rss/cs.LG"
 
-  - id: "arstechnica"
-    name: "Ars Technica"
+  - id: "openai-blog"
+    name: "OpenAI Blog"
     type: "rss"
     enabled: true
     timeout_seconds: 20
-    url: "https://feeds.arstechnica.com/arstechnica/index"
+    url: "https://openai.com/news/rss.xml"
 
-  - id: "bbc-world"
-    name: "BBC World"
+  - id: "google-ai-blog"
+    name: "Google AI / Technology Blog"
     type: "rss"
     enabled: true
     timeout_seconds: 20
-    url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+    url: "https://blog.google/technology/ai/rss/"
 
-  - id: "nytimes-world"
-    name: "NYTimes World"
+  - id: "huggingface-blog"
+    name: "Hugging Face Blog"
     type: "rss"
     enabled: true
     timeout_seconds: 20
-    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+    url: "https://huggingface.co/blog/feed.xml"
 
-  - id: "hn-web"
-    name: "Hacker News Web"
+  - id: "paperswithcode-trending"
+    name: "Papers with Code (via Hugging Face Trending Papers)"
     type: "web"
-    enabled: false
+    enabled: true
     timeout_seconds: 20
-    url: "https://news.ycombinator.com/"
-    item_selector: "tr.athing"
-    title_selector: ".titleline > a"
-    base_url: "https://news.ycombinator.com"
+    url: "https://huggingface.co/papers/trending"
+    item_selector: "a[href^='/papers/']"
+    base_url: "https://huggingface.co"
+
+  - id: "ai-news"
+    name: "Artificial Intelligence News"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "https://www.artificialintelligence-news.com/feed/"
+
+  - id: "hn-ai-newest"
+    name: "Hacker News AI-filtered"
+    type: "rss"
+    enabled: true
+    timeout_seconds: 20
+    url: "https://hnrss.org/newest?q=AI"
 
   - id: "lobsters-web"
     name: "Lobsters Web"
