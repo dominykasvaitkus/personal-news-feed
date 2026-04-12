@@ -1,5 +1,5 @@
 param(
-    [ValidateSet("bootstrap", "install", "test", "run", "copy-config")]
+    [ValidateSet("bootstrap", "install", "test", "run", "copy-config", "run-starter", "stage-feed", "publish")]
     [string]$Task = "run"
 )
 
@@ -53,5 +53,18 @@ switch ($Task) {
     }
     "copy-config" {
         Run-InRepo "Copy-Item config.starter.yaml config.yaml -Force"
+    }
+    "run-starter" {
+        Ensure-Venv
+        Run-InRepo "`$env:NEWS_FEED_CONFIG_PATH='config.starter.yaml'; .\.venv\Scripts\python -m src.aggregator"
+    }
+    "stage-feed" {
+        Run-InRepo "git add output/*.xml state/seen_hashes.json"
+    }
+    "publish" {
+        Ensure-Venv
+        Run-InRepo "`$env:NEWS_FEED_CONFIG_PATH='config.starter.yaml'; .\.venv\Scripts\python -m src.aggregator"
+        Run-InRepo "git add output/*.xml state/seen_hashes.json"
+        Run-InRepo "git diff --cached --quiet; if (`$LASTEXITCODE -ne 0) { git commit -m 'chore: update generated feed artifacts' } else { Write-Host 'No feed artifact changes to commit.' }"
     }
 }

@@ -15,7 +15,7 @@ A Python-first personal feed aggregator that combines multiple source types into
   - `public`: writes `output/feed.xml`
   - `secret_path`: writes `output/feed-<token>.xml`
 - Deduplication across all sources
-- Scheduled automation with GitHub Actions (every 3 hours by default)
+- Scheduled automation with GitHub Actions (hourly)
 - PowerShell helper script for virtualenv-first workflow
 
 ## Quick Start (Local)
@@ -80,7 +80,29 @@ Use `config.starter.yaml` as your default source set. It includes real RSS feeds
 - `install`: install requirements into `.venv`
 - `test`: run pytest through `.venv`
 - `run`: run feed generation through `.venv`
+- `run-starter`: run feed generation using `config.starter.yaml` directly
 - `copy-config`: copy starter config to `config.yaml`
+- `stage-feed`: stage generated `output/*.xml` and `state/seen_hashes.json`
+- `publish`: run starter config generation and commit feed artifacts if changed
+
+## Fast Iteration (No Manual Actions Run)
+
+For active development, you can generate and push feed artifacts alongside code changes:
+
+```powershell
+.\scripts\dev.ps1 -Task run-starter
+.\scripts\dev.ps1 -Task stage-feed
+git add <your-code-files>
+git commit -m "your message"
+git push
+```
+
+Or use one command for artifacts:
+
+```powershell
+.\scripts\dev.ps1 -Task publish
+git push
+```
 
 ## GitHub Actions Automation
 
@@ -90,7 +112,7 @@ Workflow file:
 
 What it does:
 
-1. Runs every 3 hours.
+1. Runs every hour.
 2. Installs dependencies.
 3. Copies `config.starter.yaml` to `config.yaml`.
 4. Runs feed generation.

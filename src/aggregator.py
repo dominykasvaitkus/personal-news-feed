@@ -73,10 +73,13 @@ def resolve_output_path(config: AppConfig) -> str:
 
 def main() -> None:
     setup_logging()
-    config = load_config("config.yaml")
+    config_path = os.getenv("NEWS_FEED_CONFIG_PATH", "config.yaml")
+    state_file = os.getenv("NEWS_FEED_STATE_FILE", "state/seen_hashes.json")
+
+    config = load_config(config_path)
     items = gather_items(config)
 
-    dedup = Deduplicator()
+    dedup = Deduplicator(state_file=state_file)
     fresh_items = dedup.filter_new(items)
     logger.info("Items after deduplication: %s", len(fresh_items))
 
