@@ -61,8 +61,13 @@ class EmailSourceConfig(BaseSourceConfig):
     sender_allowlist: list[str] = Field(default_factory=list)
 
 
+class UpdatesSourceConfig(BaseSourceConfig):
+    type: Literal["updates"]
+    file_path: str = "updates/major_updates.yaml"
+
+
 SourceConfig = Annotated[
-    Union[RssSourceConfig, WebSourceConfig, EmailSourceConfig],
+    Union[RssSourceConfig, WebSourceConfig, EmailSourceConfig, UpdatesSourceConfig],
     Field(discriminator="type"),
 ]
 

@@ -71,6 +71,14 @@ sources:
     timeout_seconds: 20
     url: "https://hnrss.org/newest?q=AI"
 
+  - id: "major-updates"
+    name: "Project Major Updates"
+    type: "updates"
+    enabled: true
+    timeout_seconds: 20
+    max_items: 5
+    file_path: "updates/major_updates.yaml"
+
   - id: "lobsters-web"
     name: "Lobsters Web"
     type: "web"

@@ -73,6 +73,7 @@ Use `config.starter.yaml` as your default source set. It includes real RSS feeds
   - `type: rss` with `url`
   - `type: web` with `item_selector`, `title_selector`, and optional `summary_selector`
   - `type: email` with IMAP details
+  - `type: updates` with `file_path` for manual major-change posts
 
 ## Helper Script Tasks
 
@@ -83,7 +84,27 @@ Use `config.starter.yaml` as your default source set. It includes real RSS feeds
 - `run-starter`: run feed generation using `config.starter.yaml` directly
 - `copy-config`: copy starter config to `config.yaml`
 - `stage-feed`: stage generated `output/*.xml` and `state/seen_hashes.json`
+- `add-update`: append a major project update post entry
 - `publish`: run starter config generation and commit feed artifacts if changed
+
+## Major Change Confirmation Posts
+
+Use the built-in updates source to publish a single confirmation post whenever you make a major addition.
+
+Create one update entry:
+
+```powershell
+.\scripts\dev.ps1 -Task add-update -Title "Major update: your change" -Summary "What changed and why it matters"
+```
+
+Then generate and stage feed artifacts:
+
+```powershell
+.\scripts\dev.ps1 -Task run-starter
+.\scripts\dev.ps1 -Task stage-feed
+```
+
+Update entries are stored in `updates/major_updates.yaml` and appear in the RSS feed as normal posts.
 
 ## Fast Iteration (No Manual Actions Run)
 

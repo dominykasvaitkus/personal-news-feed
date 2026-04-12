@@ -1,0 +1,5 @@
+- id: "2026-04-12-updates-source"
+  title: "Major update: Feed now supports built-in project update posts"
+  summary: "Added a dedicated updates source so major additions can publish a clear confirmation post in your RSS feed."
+  url: "https://github.com/dominykasvaitkus/personal-news-feed/commits/main"
+  published_at: "2026-04-12T12:00:00Z"

@@ -1,6 +1,12 @@
 param(
-    [ValidateSet("bootstrap", "install", "test", "run", "copy-config", "run-starter", "stage-feed", "publish")]
+    [ValidateSet("bootstrap", "install", "test", "run", "copy-config", "run-starter", "stage-feed", "add-update", "publish")]
     [string]$Task = "run"
+    ,
+    [string]$Title = ""
+    ,
+    [string]$Summary = ""
+    ,
+    [string]$Url = "https://github.com/dominykasvaitkus/personal-news-feed/commits/main"
 )
 
 $ErrorActionPreference = "Stop"
@@ -60,6 +66,13 @@ switch ($Task) {
     }
     "stage-feed" {
         Run-InRepo "git add output/*.xml state/seen_hashes.json"
+    }
+    "add-update" {
+        Ensure-Venv
+        if ([string]::IsNullOrWhiteSpace($Title) -or [string]::IsNullOrWhiteSpace($Summary)) {
+            throw "For add-update, provide -Title and -Summary."
+        }
+        Run-InRepo ".\.venv\Scripts\python scripts\add_update.py --title \"$Title\" --summary \"$Summary\" --url \"$Url\""
     }
     "publish" {
         Ensure-Venv

@@ -5,26 +5,39 @@ import os
 import re
 from collections.abc import Iterable
 
-from .config import AppConfig, EmailSourceConfig, RssSourceConfig, WebSourceConfig, load_config
+from .config import (
+    AppConfig,
+    EmailSourceConfig,
+    RssSourceConfig,
+    UpdatesSourceConfig,
+    WebSourceConfig,
+    load_config,
+)
 from .dedup import Deduplicator
 from .feed_output import write_rss
 from .models import FeedItem
 from .sources.base import SourceAdapter
 from .sources.email_source import EmailSourceAdapter
 from .sources.rss_source import RssSourceAdapter
+from .sources.updates_source import UpdatesSourceAdapter
 from .sources.web_source import WebSourceAdapter
 from .utils import run_with_retries, setup_logging
 
 logger = logging.getLogger(__name__)
 
 
-def build_adapter(config: RssSourceConfig | WebSourceConfig | EmailSourceConfig, content_mode: str) -> SourceAdapter:
+def build_adapter(
+    config: RssSourceConfig | WebSourceConfig | EmailSourceConfig | UpdatesSourceConfig,
+    content_mode: str,
+) -> SourceAdapter:
     if isinstance(config, RssSourceConfig):
         return RssSourceAdapter(config, content_mode)
     if isinstance(config, WebSourceConfig):
         return WebSourceAdapter(config, content_mode)
     if isinstance(config, EmailSourceConfig):
         return EmailSourceAdapter(config, content_mode)
+    if isinstance(config, UpdatesSourceConfig):
+        return UpdatesSourceAdapter(config, content_mode)
     raise TypeError(f"Unsupported source config type: {type(config)!r}")
 
 
