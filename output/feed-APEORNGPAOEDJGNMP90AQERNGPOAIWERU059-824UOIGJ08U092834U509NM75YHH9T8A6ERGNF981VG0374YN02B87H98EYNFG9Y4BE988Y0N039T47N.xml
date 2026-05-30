@@ -1,29 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 30 May 2026 10:06:23 +0000</lastBuildDate><item><title>Slow Journal app, with AI integration</title><link>https://nemejournal.app/</link><description>&lt;p&gt;Article URL: &lt;a href="https://nemejournal.app/"&gt;https://nemejournal.app/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48334405"&gt;https://news.ycombinator.com/item?id=48334405&lt;/a&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 30 May 2026 12:07:16 +0000</lastBuildDate><item><title>LLMShare: Attackers are turning AI chatbot pages into malware delivery platforms</title><link>https://pushsecurity.com/blog/llmshare-malvertising-campaign</link><description>&lt;p&gt;Article URL: &lt;a href="https://pushsecurity.com/blog/llmshare-malvertising-campaign"&gt;https://pushsecurity.com/blog/llmshare-malvertising-campaign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48335047"&gt;https://news.ycombinator.com/item?id=48335047&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48334405</guid><pubDate>Sat, 30 May 2026 09:41:07 +0000</pubDate></item><item><title>AI coding agents ships at the cost of intuition and taste</title><link>https://shivekkhurana.com/blog/coding-agent-dopamine/</link><description>&lt;p&gt;Article URL: &lt;a href="https://shivekkhurana.com/blog/coding-agent-dopamine/"&gt;https://shivekkhurana.com/blog/coding-agent-dopamine/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48334363"&gt;https://news.ycombinator.com/item?id=48334363&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48334363</guid><pubDate>Sat, 30 May 2026 09:33:05 +0000</pubDate></item><item><title>Three flavors of coding with AI agents</title><link>https://nocodefunctions.com/blog/three-flavors-agentic-coding/</link><description>&lt;p&gt;Article URL: &lt;a href="https://nocodefunctions.com/blog/three-flavors-agentic-coding/"&gt;https://nocodefunctions.com/blog/three-flavors-agentic-coding/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48334332"&gt;https://news.ycombinator.com/item?id=48334332&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48334332</guid><pubDate>Sat, 30 May 2026 09:27:02 +0000</pubDate></item><item><title>Show HN: AI-org – org-mode powered by AI</title><link>https://ai-org.net/</link><description>&lt;p&gt;Hey guys. I made an attempt at using AI agents to help organize your tasks and life.&lt;p&gt;I liked orgmode before AI. But just wondered how it could look with AI.&lt;p&gt;So I created ai-org, a non-taken name it seems.&lt;p&gt;It's an opencode fork with a custom org agenda task view. (and a simple file browser). (wouldn't be possible without opencode team, truly what a great MIT licensed product)&lt;p&gt;The template includes an AGENTS.md and accompany file structure to the effect of:&lt;p&gt;matt@mbp:~/doc/dev/pro/ai-org/template
-$ tree -L 1
-projects/
-duties/
-resources/
-archive/
-goals.org
-ideas.org
-scratch.org
-todo.org
-AGENTS.md
-HUMAN.md&lt;p&gt;It's been a fun experiment, would love to hear any thoughts, thank you.&lt;p&gt;&lt;a href="https://ai-org.net/" rel="nofollow"&gt;https://ai-org.net/&lt;/a&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48334157"&gt;https://news.ycombinator.com/item?id=48334157&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48334157</guid><pubDate>Sat, 30 May 2026 08:59:47 +0000</pubDate></item><item><title>A $2k AI-generated film will make its debut at Tribeca</title><link>https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca"&gt;https://www.theverge.com/entertainment/939067/ai-film-dreams-of-violets-tribeca&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48333728"&gt;https://news.ycombinator.com/item?id=48333728&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 3&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48333728</guid><pubDate>Sat, 30 May 2026 07:45:03 +0000</pubDate></item></channel></rss>
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48335047</guid><pubDate>Sat, 30 May 2026 11:21:46 +0000</pubDate></item><item><title>AI Billionaires Brace for Pitchforks</title><link>https://www.axios.com/2026/05/29/ai-billionaires-tech-taxes-wealth</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.axios.com/2026/05/29/ai-billionaires-tech-taxes-wealth"&gt;https://www.axios.com/2026/05/29/ai-billionaires-tech-taxes-wealth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48334902"&gt;https://news.ycombinator.com/item?id=48334902&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 7&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48334902</guid><pubDate>Sat, 30 May 2026 11:01:05 +0000</pubDate></item><item><title>Generalist AI – building general intelligence for the physical world</title><link>https://www.youtube.com/channel/UCwV9z8IGmbUQUb5D8KSv3mQ</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.youtube.com/channel/UCwV9z8IGmbUQUb5D8KSv3mQ"&gt;https://www.youtube.com/channel/UCwV9z8IGmbUQUb5D8KSv3mQ&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=48334607"&gt;https://news.ycombinator.com/item?id=48334607&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 2&lt;/p&gt;
+&lt;p&gt;# Comments: 2&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=48334607</guid><pubDate>Sat, 30 May 2026 10:12:21 +0000</pubDate></item></channel></rss>
