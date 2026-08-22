@@ -1,18 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 22 Aug 2026 06:50:26 +0000</lastBuildDate><item><title>Ask HN: What is the evidence for a stock market bubble in AI?</title><link>https://news.ycombinator.com/item?id=49397022</link><description>&lt;p&gt;Should the circular cash flows between the top AI companies, Nvidia, Anthropic, Openai, Google and Meta, be banned because of the systemic risks to the global economy?&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49397022"&gt;https://news.ycombinator.com/item?id=49397022&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 4&lt;/p&gt;
-&lt;p&gt;# Comments: 2&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49397022</guid><pubDate>Sat, 22 Aug 2026 06:07:48 +0000</pubDate></item><item><title>Show HN: Front end skill pack for AI agents, with machine-enforced quality gates</title><link>https://krishna-modi12.github.io/frontend-design-pro/</link><description>&lt;p&gt;Article URL: &lt;a href="https://krishna-modi12.github.io/frontend-design-pro/"&gt;https://krishna-modi12.github.io/frontend-design-pro/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49396937"&gt;https://news.ycombinator.com/item?id=49396937&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49396937</guid><pubDate>Sat, 22 Aug 2026 05:52:19 +0000</pubDate></item><item><title>Void Tools API – Blockchain Tools for AI Agents (Pay in Void Tokens)</title><link>https://news.ycombinator.com/item?id=49396884</link><description>&lt;p&gt;I built an API for AI agents that provides blockchain tools paid in VOID tokens.&lt;p&gt;Tools:
-- Contract Checker (1 VOID) — Verify if contract is safe
-- New Contracts (5 VOID) — Real-time proxy scanner on Base
-- Price Oracle (FREE) — VOID price feed
-- RPC Proxy (1 VOID) — 10 rotating RPC pools&lt;p&gt;No registration, no KYC. Pay-as-you-go.&lt;p&gt;API: http://72.56.250.235:8767/
-Docs: https://dolar333-oss.github.io/void-protocol/agent.json&lt;p&gt;Built for autonomous AI agents on Arbitrum.&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49396884"&gt;https://news.ycombinator.com/item?id=49396884&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49396884</guid><pubDate>Sat, 22 Aug 2026 05:40:37 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 22 Aug 2026 07:36:40 +0000</lastBuildDate><item><title>Would a Hiroshima-scale AI disaster make humanity protect itself? I fear not</title><link>https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology"&gt;https://www.theguardian.com/commentisfree/2026/aug/22/ai-disaster-hiroshima-humankind-silicon-valley-technology&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49397246"&gt;https://news.ycombinator.com/item?id=49397246&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 3&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49397246</guid><pubDate>Sat, 22 Aug 2026 06:46:35 +0000</pubDate></item></channel></rss>
