@@ -1,36 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 23 Aug 2026 02:33:40 +0000</lastBuildDate><item><title>AI Chip Architectures</title><link>https://www.jepeake.com/ai-chip-architectures</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.jepeake.com/ai-chip-architectures"&gt;https://www.jepeake.com/ai-chip-architectures&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49405657"&gt;https://news.ycombinator.com/item?id=49405657&lt;/a&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sun, 23 Aug 2026 03:24:42 +0000</lastBuildDate><item><title>Show HN: LayoutLens: AI-Powered Visual UI Testing</title><link>https://github.com/gojiplus/layoutlens</link><description>&lt;p&gt;Article URL: &lt;a href="https://github.com/gojiplus/layoutlens"&gt;https://github.com/gojiplus/layoutlens&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49405683"&gt;https://news.ycombinator.com/item?id=49405683&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49405657</guid><pubDate>Sun, 23 Aug 2026 02:25:10 +0000</pubDate></item><item><title>Why can AI generate Super Mario but not a wedge ramp for my robot vacuum?</title><link>https://news.ycombinator.com/item?id=49405520</link><description>&lt;p&gt;I've been puzzled by something: AI generation can produce an elaborate
-  figurine, a cartoon character, even a convincing Super Mario — yet it
-  can't reliably make a simple wedge ramp so my robot vacuum can climb a
-  step.&lt;p&gt;&lt;pre&gt;&lt;code&gt;  For context: I bought a Bambu P2S but can't model. I tried the "describe
-  it and get a model" AIs — the output is unusable, you can't adjust it,
-  it's never quite what I meant. I tried having an agent write Python to
-  build geometry directly — it tops out at simple primitives.
- 
-  What finally worked: geometric decomposition. I break a complex part into
-  ordered, grouped steps, describe each as a small spec, and let an agent
-  execute them in Blender (via blender-mcp). That process turned out to
-  abstract into a small engine — the key insight being it converts the 3D
-  spatial reasoning LLMs are bad at, into the structured code they're good
-  at. I wrote it up here: https://github.com/zhuchaokn/spec-3d-model
- 
-  My questions:
-  - Why is "functional part" generation so much weaker than
-  "figurine/aesthetic" generation? Is it data (no parametrized-CAD training
-  sets), representation (mesh vs B-rep), or evaluation (nobody benchmarks
-  "does it print / is it watertight")?
-  - Is "turn 3D modeling into code for an LLM" the right framing, or am I
-  missing something better?&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49405520"&gt;https://news.ycombinator.com/item?id=49405520&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 2&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49405520</guid><pubDate>Sun, 23 Aug 2026 01:45:17 +0000</pubDate></item><item><title>Apple degrades privacy and encryption of iMessage with AI integrations</title><link>https://twitter.com/stevemoraco/status/2091194172917338520</link><description>&lt;p&gt;Article URL: &lt;a href="https://twitter.com/stevemoraco/status/2091194172917338520"&gt;https://twitter.com/stevemoraco/status/2091194172917338520&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49405505"&gt;https://news.ycombinator.com/item?id=49405505&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49405683</guid><pubDate>Sun, 23 Aug 2026 02:33:56 +0000</pubDate></item><item><title>Edify – Windows NLE: OpenFX, proxy editing, AI subs, vtuber tools ($29.99 once)</title><link>https://apps.microsoft.com/detail/9nkkk5k5s4ct?hl=en-US&amp;gl=US</link><description>&lt;p&gt;Article URL: &lt;a href="https://apps.microsoft.com/detail/9nkkk5k5s4ct?hl=en-US&amp;amp;gl=US"&gt;https://apps.microsoft.com/detail/9nkkk5k5s4ct?hl=en-US&amp;amp;gl=US&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49405662"&gt;https://news.ycombinator.com/item?id=49405662&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 1&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49405505</guid><pubDate>Sun, 23 Aug 2026 01:41:02 +0000</pubDate></item><item><title>Treat AI Like an Intern, Not Software: A Stanford Professor's Guide</title><link>https://pixelum.substack.com/p/treat-ai-like-an-intern-not-software</link><description>&lt;p&gt;Article URL: &lt;a href="https://pixelum.substack.com/p/treat-ai-like-an-intern-not-software"&gt;https://pixelum.substack.com/p/treat-ai-like-an-intern-not-software&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49405473"&gt;https://news.ycombinator.com/item?id=49405473&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 1&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49405473</guid><pubDate>Sun, 23 Aug 2026 01:31:06 +0000</pubDate></item></channel></rss>
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49405662</guid><pubDate>Sun, 23 Aug 2026 02:27:20 +0000</pubDate></item></channel></rss>
