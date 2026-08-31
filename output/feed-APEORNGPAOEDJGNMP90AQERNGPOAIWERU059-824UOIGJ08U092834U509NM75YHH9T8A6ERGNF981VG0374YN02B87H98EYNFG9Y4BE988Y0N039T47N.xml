@@ -1,14 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 31 Aug 2026 21:15:37 +0000</lastBuildDate><item><title>Staying Ahead of Adversarial AI Through Agentic Source Code Review</title><link>https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review</link><description>&lt;p&gt;Article URL: &lt;a href="https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review"&gt;https://cloud.google.com/blog/topics/threat-intelligence/staying-ahead-of-adversarial-ai-through-agentic-source-code-review&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49514820"&gt;https://news.ycombinator.com/item?id=49514820&lt;/a&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Mon, 31 Aug 2026 22:16:21 +0000</lastBuildDate><item><title>1,664 cases where the AI went out of control</title><link>https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds"&gt;https://www.theguardian.com/technology/2026/aug/29/sharp-rise-in-incidents-of-ai-escaping-users-control-research-finds&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49515440"&gt;https://news.ycombinator.com/item?id=49515440&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49514820</guid><pubDate>Mon, 31 Aug 2026 21:04:25 +0000</pubDate></item><item><title>I attended a conference recently and AI use by academics was absurd</title><link>https://lobste.rs/s/qn7jtv/i_attended_conference_recently_ai_use_by</link><description>&lt;p&gt;Article URL: &lt;a href="https://lobste.rs/s/qn7jtv/i_attended_conference_recently_ai_use_by"&gt;https://lobste.rs/s/qn7jtv/i_attended_conference_recently_ai_use_by&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49514773"&gt;https://news.ycombinator.com/item?id=49514773&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 2&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49514773</guid><pubDate>Mon, 31 Aug 2026 20:59:30 +0000</pubDate></item><item><title>Show HN: cdai – the AI-enhanced cd command</title><link>https://github.com/franzenzenhofer/cdai</link><description>&lt;p&gt;Article URL: &lt;a href="https://github.com/franzenzenhofer/cdai"&gt;https://github.com/franzenzenhofer/cdai&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49514666"&gt;https://news.ycombinator.com/item?id=49514666&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 2&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49514666</guid><pubDate>Mon, 31 Aug 2026 20:46:51 +0000</pubDate></item><item><title>Show HN: Transform text and images into cinematic AI videos</title><link>https://h3max.app/</link><description>&lt;p&gt;Article URL: &lt;a href="https://h3max.app/"&gt;https://h3max.app/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49514512"&gt;https://news.ycombinator.com/item?id=49514512&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;# Comments: 1&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49515440</guid><pubDate>Mon, 31 Aug 2026 22:07:52 +0000</pubDate></item><item><title>AI Job Scout and Rate Matcher</title><link>https://github.com/Deviad/job-hunter</link><description>&lt;p&gt;Article URL: &lt;a href="https://github.com/Deviad/job-hunter"&gt;https://github.com/Deviad/job-hunter&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49515381"&gt;https://news.ycombinator.com/item?id=49515381&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Points: 1&lt;/p&gt;
-&lt;p&gt;# Comments: 1&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49514512</guid><pubDate>Mon, 31 Aug 2026 20:29:57 +0000</pubDate></item></channel></rss>
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49515381</guid><pubDate>Mon, 31 Aug 2026 22:02:47 +0000</pubDate></item><item><title>Tell HN: On AI, Quality, and Accountability</title><link>https://news.ycombinator.com/item?id=49515051</link><description>&lt;p&gt;Suppose I do something myself.  I reap all the benefits, but it takes a lot of
+time, I may not have the expertise to do a good job, and I get all the blame if
+something goes wrong.&lt;p&gt;Suppose I go to the park and find one of several guys who would do it for free.
+I get all the of benefits, he might do an excellent job, but, because there's no
+contract, I still take all the blame.&lt;p&gt;Suppose I actually hire a professional to do it.  I receive fewer of the
+benefits. However, he's much more likely to do a good job, and the legal system
+provides a variety of ways to hold him accountable for the work.&lt;p&gt;Suppose I hire a professional, but then insist that he use legions of guys from
+the park to do the actual work, since that's going to be some much faster and
+cheaper per quantum of work.  I also tell him that if he's unwilling to do that,
+I'll find someone who will.  I also tell him that, since he has so much more
+unoccupied time now that the original work is in the hands of all those other dudes,
+he gets to supervise still more work done by other swarms of guys from the park.&lt;p&gt;At this point it should be clear that I'm not interested in quality work, but in
+having someone poised to absorb blame.  I want a patsy.&lt;p&gt;Now replace "guys at the park" with LLMs, and replace "free" with "nearly free,
+but with no warranty."&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49515051"&gt;https://news.ycombinator.com/item?id=49515051&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 2&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49515051</guid><pubDate>Mon, 31 Aug 2026 21:30:34 +0000</pubDate></item><item><title>The AI moat isn't GPUs, it's the advanced packaging they require</title><link>https://www.fenty.dev/intelligence/the-next-ai-moat-advanced-packaging</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.fenty.dev/intelligence/the-next-ai-moat-advanced-packaging"&gt;https://www.fenty.dev/intelligence/the-next-ai-moat-advanced-packaging&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49514942"&gt;https://news.ycombinator.com/item?id=49514942&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 2&lt;/p&gt;
+&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49514942</guid><pubDate>Mon, 31 Aug 2026 21:17:30 +0000</pubDate></item><item><title>The Movies That Make You Feel the Strangeness of AI</title><link>https://twitter.com/jmugan/status/2094533961896931562</link><description>&lt;p&gt;Article URL: &lt;a href="https://twitter.com/jmugan/status/2094533961896931562"&gt;https://twitter.com/jmugan/status/2094533961896931562&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49514907"&gt;https://news.ycombinator.com/item?id=49514907&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Points: 1&lt;/p&gt;
+&lt;p&gt;# Comments: 1&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49514907</guid><pubDate>Mon, 31 Aug 2026 21:13:44 +0000</pubDate></item></channel></rss>
