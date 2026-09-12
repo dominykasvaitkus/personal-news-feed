@@ -1,22 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 12 Sep 2026 09:17:01 +0000</lastBuildDate><item><title>GoatCode – open-source terminal AI agent with provider failover</title><link>https://news.ycombinator.com/item?id=49670455</link><description>&lt;p&gt;GoatCode is a single 85 MB binary that runs in your terminal. It brings 180+ LLM providers (or your existing Claude/ChatGPT/Gemini/Copilot subscriptions via OAuth), and when your quota dies mid-session it automatically retries then walks your fallback chain live — switches provider mid-turn, says so, and finishes the answer. No crash, no lost context.&lt;p&gt;What’s new in v2.1.10:
-- Prompt caching on Anthropic (up to 90% cheaper long sessions; savings shown in /cost)
-- Inline unified diffs after every write/edit
-- /rewind — jump transcript + files back to any turn
-- Parallel subagents (up to 3 task calls fan out concurrently)
-- /search + goat search — full-text across every saved session
-- @file Tab completion, /model sonnet aliases
-- True context meter (real API tokens vs model window)
-- GOAT MODE (bypass) that actually works: mid-turn switch, prompt resolves YES
-- Noir theme: deep slate + black-green surfaces&lt;p&gt;Install: npm install -g goatcode-cli (or grab a static binary from the releases page)&lt;p&gt;Repo: https://github.com/Arhan-w/GoatCode
-Landing: https://goatcode.vercel.app&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49670455"&gt;https://news.ycombinator.com/item?id=49670455&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 2&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49670455</guid><pubDate>Sat, 12 Sep 2026 09:02:29 +0000</pubDate></item><item><title>AI may be denting computer science graduates' job prospects, UK data shows</title><link>https://www.theguardian.com/education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.theguardian.com/education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data"&gt;https://www.theguardian.com/education/2026/sep/12/ai-computer-science-graduates-job-prospects-uk-data&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49670427"&gt;https://news.ycombinator.com/item?id=49670427&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 2&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49670427</guid><pubDate>Sat, 12 Sep 2026 08:57:43 +0000</pubDate></item><item><title>UAE revises 5GW AI data center plan after Iranian attacks, sources say</title><link>https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/</link><description>&lt;p&gt;Article URL: &lt;a href="https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/"&gt;https://www.reuters.com/world/middle-east/uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say-2026-09-11/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Comments URL: &lt;a href="https://news.ycombinator.com/item?id=49670299"&gt;https://news.ycombinator.com/item?id=49670299&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Points: 3&lt;/p&gt;
-&lt;p&gt;# Comments: 0&lt;/p&gt;</description><guid isPermaLink="false">https://news.ycombinator.com/item?id=49670299</guid><pubDate>Sat, 12 Sep 2026 08:35:02 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Personal Combined Feed</title><link>https://example.invalid</link><description>Personal aggregate feed</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Sat, 12 Sep 2026 10:15:17 +0000</lastBuildDate></channel></rss>
